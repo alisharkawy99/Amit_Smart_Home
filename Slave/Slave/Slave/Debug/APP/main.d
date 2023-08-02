@@ -1,0 +1,128 @@
+APP/main.d APP/main.o: ../APP/main.c ../APP/main.h \
+ ../MCAL/Configuration/CPU_Configuration.h \
+ ../MCAL/Configuration/Bit_Math.h ../MCAL/Configuration/STD_Types.h \
+ ../MCAL/DIO/DIO_Private.h ../MCAL/DIO/DIO_Configuration.h \
+ ../MCAL/DIO/DIO_Address.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
+ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\include/avr/iom32.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
+ ../HCAL/LCD/LCD_Private.h ../HCAL/LCD/LCD_Configuration.h \
+ ../HCAL/ROOM1/LED0_Private.h ../HCAL/ROOM1/LED0_Configuration.h \
+ ../HCAL/ROOM\ 2/LED1_Private.h ../HCAL/ROOM\ 2/LED1_Configuration.h \
+ ../HCAL/ROOM3/LED2_Private.h ../HCAL/ROOM3/LED2_Configuration.h \
+ ../MCAL/ADC/ADC_Private.h ../MCAL/ADC/ADC_Configuration.h \
+ ../MCAL/ADC/ADC_Address.h ../MCAL/PWM/FAST/FAST_PWM_PRIVATE.h \
+ ../MCAL/PWM/FAST/FAST_PWM_CONFGURATION.h \
+ ../MCAL/PWM/FAST/FAST_PWM_ADRRESS.h ../HCAL/MOTORS/DC\ MOTOR/DC_Motor.h \
+ ../HCAL/MOTORS/DC\ MOTOR/DC_Motor_Configuration.h \
+ ../MCAL/PWM/FAST/FAST_PWM_ADRRESS.h \
+ ../HCAL/MOTORS/SERVO\ MOTOR/Servo_Motor.h \
+ ../HCAL/MOTORS/SERVO\ MOTOR/Servo_Motor_Configuration.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
+ ../MCAL/SPI/SPI_Private.h ../MCAL/SPI/SPI_Configuration.h \
+ ../MCAL/SPI/SPI_Address.h
+
+../APP/main.h:
+
+../MCAL/Configuration/CPU_Configuration.h:
+
+../MCAL/Configuration/Bit_Math.h:
+
+../MCAL/Configuration/STD_Types.h:
+
+../MCAL/DIO/DIO_Private.h:
+
+../MCAL/DIO/DIO_Configuration.h:
+
+../MCAL/DIO/DIO_Address.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h:
+
+C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\include/avr/iom32.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
+
+../HCAL/LCD/LCD_Private.h:
+
+../HCAL/LCD/LCD_Configuration.h:
+
+../HCAL/ROOM1/LED0_Private.h:
+
+../HCAL/ROOM1/LED0_Configuration.h:
+
+../HCAL/ROOM\ 2/LED1_Private.h:
+
+../HCAL/ROOM\ 2/LED1_Configuration.h:
+
+../HCAL/ROOM3/LED2_Private.h:
+
+../HCAL/ROOM3/LED2_Configuration.h:
+
+../MCAL/ADC/ADC_Private.h:
+
+../MCAL/ADC/ADC_Configuration.h:
+
+../MCAL/ADC/ADC_Address.h:
+
+../MCAL/PWM/FAST/FAST_PWM_PRIVATE.h:
+
+../MCAL/PWM/FAST/FAST_PWM_CONFGURATION.h:
+
+../MCAL/PWM/FAST/FAST_PWM_ADRRESS.h:
+
+../HCAL/MOTORS/DC\ MOTOR/DC_Motor.h:
+
+../HCAL/MOTORS/DC\ MOTOR/DC_Motor_Configuration.h:
+
+../MCAL/PWM/FAST/FAST_PWM_ADRRESS.h:
+
+../HCAL/MOTORS/SERVO\ MOTOR/Servo_Motor.h:
+
+../HCAL/MOTORS/SERVO\ MOTOR/Servo_Motor_Configuration.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+
+../MCAL/SPI/SPI_Private.h:
+
+../MCAL/SPI/SPI_Configuration.h:
+
+../MCAL/SPI/SPI_Address.h:
