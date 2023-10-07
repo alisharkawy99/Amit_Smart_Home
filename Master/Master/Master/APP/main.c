@@ -85,6 +85,9 @@ int main(void)
 	uint8_t name_size_1, name_size_2;
 	//******************************************************Admin Registration*************************************************************/
 	while (value<1	){
+	for (int i=0;i<2;i++)
+	{
+	
 	if(eeprom_read_byte(ADMIN_PASS_STATUS_ADDRESS)!=1 || eeprom_read_byte(GUEST_PASS_STATUS_ADDRESS)!=1){
 		LCD_Clear();
 		LCD_String_xy(0,0,"1:Set Admin");LCD_String_xy(1,0,"2:Set Guest");
@@ -189,9 +192,10 @@ int main(void)
 				
 				break;
 			}
-		}
-		//\\ ***************************************************Check for Password *************************************************************//\\			
-		else if(eeprom_read_byte(ADMIN_PASS_STATUS_ADDRESS)==1 || eeprom_read_byte(GUEST_PASS_STATUS_ADDRESS)==1) {
+	}
+		}  
+		//**********************************************Check for data*********************************
+		if(eeprom_read_byte(ADMIN_PASS_STATUS_ADDRESS)==1 || eeprom_read_byte(GUEST_PASS_STATUS_ADDRESS)==1) {
 			LCD_Clear();LCD_String_xy(0,0,"1:Admin 2: Guest");
 			uint8_t s=UART_Received();
 		while(timeout<3 && Mode==NO_MODE){
